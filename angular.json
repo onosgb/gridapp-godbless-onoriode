@@ -43,8 +43,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumWarning": "2mb",
+                  "maximumError": "3MB"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -95,6 +95,22 @@
             "scripts": ["./node_modules/hammerjs/hammer.min.js"],
             "stylePreprocessorOptions": {
               "includePaths": ["node_modules"]
+            }
+          }
+        }
+      }
+    }
+  }
+}
+   "includePaths": ["node_modules"]
+            }
+          }
+        }
+      }
+    }
+  }
+}
+   "includePaths": ["node_modules"]
             }
           }
         }

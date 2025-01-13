@@ -1,2 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+// Specifies large size for all components to match the previous defaults
+// This may not be needed for your project. Please consult https://www.infragistics.com/products/ignite-ui-angular/angular/components/general/update-guide for more details.
+:root {
+  --ig-size: var(--ig-size-large);
+}
+
+/* autoprefixer grid: on */
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
